@@ -12,7 +12,7 @@ require (
 	github.com/indes/telegraph-go v1.0.1
 	github.com/jinzhu/gorm v1.9.16
 	github.com/magiconair/properties v1.8.5
-	github.com/mattn/go-sqlite3 v1.14.5 // indirect
+	github.com/mattn/go-sqlite3 v1.14.7 // indirect
 	github.com/mitchellh/mapstructure v1.4.0 // indirect
 	github.com/pelletier/go-toml v1.8.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
@@ -31,5 +31,7 @@ require (
 	gopkg.in/ini.v1 v1.62.0 // indirect
 	gopkg.in/tucnak/telebot.v2 v2.3.5
 	gopkg.in/yaml.v2 v2.4.0 // indirect
+	gorm.io/driver/sqlite v1.1.4 // indirect
+	gorm.io/gorm v1.21.10 // indirect
 	moul.io/zapgorm v1.1.2
 )

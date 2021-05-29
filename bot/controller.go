@@ -1260,3 +1260,7 @@ func docCtr(m *tb.Message) {
 func errorCtr(m *tb.Message, errMsg string) {
 	_, _ = B.Send(m.Chat, errMsg)
 }
+
+func searchCtr(m *tb.Message) {
+	
+}

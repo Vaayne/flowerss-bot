@@ -30,3 +30,15 @@ func Update() {
 		time.Sleep(time.Duration(config.UpdateInterval) * time.Minute)
 	}
 }
+
+
+func UpdateWechatAccount() {
+	if config.RunMode == config.TestMode {
+		return
+	}
+	for {
+		model.LoadWechatAccounts()
+		time.Sleep(time.Duration(24 * 60) * time.Minute)
+	}
+
+}

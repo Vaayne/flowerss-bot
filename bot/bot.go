@@ -85,6 +85,9 @@ func setCommands() {
 		{"pauseall", "停止抓取订阅更新"},
 		{"activeall", "开启抓取订阅更新"},
 
+		{"search", "搜索微信公众号订阅"},
+
+
 		{"help", "使用帮助"},
 		{"version", "bot版本"},
 	}
